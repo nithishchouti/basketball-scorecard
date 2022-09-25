@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <title>BasketBall Score</title>
+    </head>
+    <body>
+        <p class="heading"><u>Basket Ball Score Card</u></p>
+        <hr><hr width=90%>
+        <div class="container">
+            <div class="colA">
+                <h1>Team-A</h1>
+                <h2 id="count-el-A" class="score">0</h2>
+                <button id="increment-btn" onclick="increment1A()"><font color="white">+1</font></button>
+                <button id="increment-btn" onclick="increment3A()">+3</button>
+                <button id="increment-btn" onclick="increment5A()">+5</button>
+            </div>
+            <div class="colB">
+                <h1>Team-B</h1>
+                <h2 id="count-el-B" class="score">0</h2>
+                <button id="increment-btn" onclick="increment1B()">+1</button>
+                <button id="increment-btn" onclick="increment3B()">+3</button>
+                <button id="increment-btn" onclick="increment5B()">+5</button>
+            </div>
+        </div>
+        <br>
+        <button id="reset-btn" onclick="reset()">RESET</button>
+        <hr width=90%><hr>
+        <script src="index.js"></script>
+    </body>
+</html>
